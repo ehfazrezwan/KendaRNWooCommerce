@@ -65,7 +65,7 @@ class Home extends React.PureComponent {
             promotions={Config.Promotions}
             onPress={openProductsByCategory}
           />
-          <Brands brands={Config.Brands} onPress={item => this.onBrand(item)} />
+          {/* <Brands brands={Config.Brands} onPress={item => this.onBrand(item)} /> */}
           {categories.length > 0 && (
             <BrowserByCategory
               categories={categories}

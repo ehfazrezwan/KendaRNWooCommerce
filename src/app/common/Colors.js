@@ -1,5 +1,5 @@
 const Colors = {
-  AppColor: "#f5d02b",
+  AppColor: "#CB0023",
   LeftMenu: "#72c8f3",
   Gray: "rgba(178,178,178,1)",
   Blue: "rgba(70,120,172,1)",
@@ -13,7 +13,7 @@ const Colors = {
   BorderInput: "#f2f2f2",
   TextInput: "#909090",
   ButtonSuccess: "#008cff",
-  txtColor: "#414552"
+  txtColor: "#ffffff"
 };
 
 export default Colors;

@@ -58,7 +58,7 @@ class SignIn extends React.PureComponent {
           <View style={styles.viewOr}>
             <Text>OR</Text>
           </View>
-          <Button isIcon={true} icon={Icons.FaceBook} title={__.t('Login With Facebook')} style={styles.btnFace} onPress={() => this.loginFacebook()} />
+          {/* <Button isIcon={true} icon={Icons.FaceBook} title={__.t('Login With Facebook')} style={styles.btnFace} onPress={() => this.loginFacebook()} /> */}
           <Text style={styles.text}>{__.t('Do you have account with Hubay?')} <Text style={styles.signUp} onPress={signUp}>{__.t('Sign Up')}</Text></Text>
         </View>
         <TouchableOpacity style={styles.btnClose} onPress={goBack}>

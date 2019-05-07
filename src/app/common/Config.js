@@ -11,18 +11,18 @@ const Config = {
   Promotions: [
     {
       image:
-        "https://hubay.net/wordpress/wp-content/uploads/2018/07/slider3.jpg",
-      categoryId: 89
+        "https://kendachile.yuktiapps.com/wp-content/uploads/2019/04/dunlop-rebate-2019-03-v2-1.jpg",
+      categoryId: 115
     },
     {
       image:
-        "https://hubay.net/wordpress/wp-content/uploads/2018/07/slider2.jpg",
-      categoryId: 93
+        "https://kendachile.yuktiapps.com/wp-content/uploads/2019/04/Kenda-Equilibrium-banner3.jpg",
+      categoryId: 116
     },
     {
       image:
-        "https://hubay.net/wordpress/wp-content/uploads/2018/07/slider1.jpg",
-      categoryId: 126
+        "https://kendachile.yuktiapps.com/wp-content/uploads/2019/04/cms_banner_revised5-1-1.png",
+      categoryId: 115
     }
   ],
   Brands: [
