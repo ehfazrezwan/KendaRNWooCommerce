@@ -34,7 +34,7 @@ class NetworkHelper {
         options.data = params;
       }
       if (token) {
-        options.headers["Authorization"] = "Bearer " + token;
+        options.headers["Authorizatio"] = "Bearer " + token;
       }
 
       axios(options)

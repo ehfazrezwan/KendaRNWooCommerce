@@ -4,6 +4,14 @@ import android.app.Application;
 
 import com.facebook.CallbackManager;
 import com.facebook.react.ReactApplication;
+import com.avishayil.rnrestart.ReactNativeRestartPackage;
+import com.taessina.paypal.RNPaypalWrapperPackage;
+import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
+import com.airbnb.android.react.maps.MapsPackage;
+import com.chirag.RNMail.RNMail;
+import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
+import com.facebook.reactnative.androidsdk.FBSDKPackage;
+import com.cmcewen.blurview.BlurViewPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import com.chirag.RNMail.RNMail;
@@ -39,16 +47,16 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNGestureHandlerPackage(),
-            new ReactNativeOneSignalPackage(),
-            new RNMail(),
             new ReactNativeRestartPackage(),
             new RNPaypalWrapperPackage(),
+            new ReactNativeOneSignalPackage(),
+            new MapsPackage(),
+            new RNMail(),
             new RNI18nPackage(),
-            new BlurViewPackage(),
-            new StripeReactPackage(),
             new FBSDKPackage(mCallbackManager),
-            new MapsPackage()
+            new BlurViewPackage(),
+            new RNGestureHandlerPackage(),
+            new StripeReactPackage()
       );
     }
 
